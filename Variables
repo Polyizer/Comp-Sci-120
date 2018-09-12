@@ -6,15 +6,14 @@ public class Variables
     {
 
 		
-        Scanner num1 = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number: ");
 
-        int a = num1.nextInt();
+        int a = scan.nextInt();
         
-        Scanner num2 = new Scanner(System.in);
         System.out.println("Enter second number: ");
         
-        int b = num2.nextInt();
+        int b = scan.nextInt();
 
         System.out.println("The sum of " + a + " and " + b + " is " + (a+b)+ ".");
         System.out.println("The product of " + a + " and " + b + " is " + (a*b)+ ".");
