@@ -1,0 +1,12 @@
+
+/*
+ Chris Beatrez
+ 9-9-18
+ */
+public class AYBABTU
+{
+    public static void main(String[]args)
+    {
+        System.out.println("All your base are belong to us.");
+    }
+}
